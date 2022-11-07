@@ -12,3 +12,4 @@ with open(r'book.txt', 'r') as file:
 
 end = time.time()
 print('{:5.3f}s'.format(end-start))
+print("ich kann pushen")
