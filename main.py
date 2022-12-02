@@ -12,12 +12,12 @@ words = []
 
 
 def GetArguments():
-    if(len(sys.argv) != 3):
+    if (len(sys.argv) != 3):
         sys.exit("Invalid Number of arguments!")
 
 
 def PrintTime():
-    print(f'Time: {((end-start)*1000):3.5f}ms')
+    print(f'Time: {((end-start)*1000):4.2f}ms')
 
 
 start = time.time()
