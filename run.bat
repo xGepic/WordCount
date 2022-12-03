@@ -10,7 +10,7 @@
 @ECHO ===================================
 @set path=testFolder
 @set ext=.txt
-"C:\Users\alexc\AppData\Local\Programs\Python\Python38\python.exe" "%~dp0main.py" path ext
+"%~dp0main.py" path ext
 @ECHO ===================================
 @ECHO Printing results: testFolder.txt
 @ECHO ===================================
