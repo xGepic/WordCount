@@ -23,7 +23,8 @@ class WordCount:
         return temp
 
     def FlatMyList(self, tempList):
-        temp = list(np.concatenate(tempList).flat)
+        temp = tempList
+        temp = list(np.concatenate(temp).flat)
         return temp
 
     def MakeAlphaNum(self, tempList):
@@ -35,7 +36,8 @@ class WordCount:
         return temp
 
     def MakeValues(self, tempList):
-        values = pd.value_counts(np.array(tempList))
+        values = tempList
+        values = pd.value_counts(np.array(values))
         return values
 
     def MyWordCount(self):
